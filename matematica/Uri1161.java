@@ -15,7 +15,7 @@ public class Uri1161 {
         }
     }
 
-    private static long fatorial(int x, long total) { // x=1, total=24
+    private static long fatorial(int x, long total) {
         if (x > 1) {
             return fatorial(x - 1, total * (x - 1));
         }
